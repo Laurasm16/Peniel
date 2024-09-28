@@ -10,7 +10,8 @@ body {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     position: relative;
     width: 940px;
     color: #000000;
@@ -21,7 +22,18 @@ header{
     margin-bottom: 140px;
 }
 
-img {
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.logo {
     width: 70px;
 }
 
@@ -33,6 +45,7 @@ img {
     padding: 20px;
     background-color: #000;
     text-align: center;
+    border-radius: 10px;
 }
 
 .cultos h1 {
@@ -40,56 +53,90 @@ img {
     color: #fff;
 }
 
-a {
+details {
     text-decoration: none;
     color: #fff;
     margin: 15px;
+    text-align: center;
+    list-style-type: none;
 }
 
-a:hover {
-    text-decoration: underline;
+summary:hover {
+    cursor: pointer;
     transition: 0.4s;
 }
+
+
 
 .cultos p {
     color: #fff;
 }
 
+.cultos h2 {
+    font-family: 3px;
+    color: yellow;
+}
+
+.pessoas {
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.kombie {
+    width: 30%;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 100px;
+
+
+}
+
+.celula {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin: 40px;
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 10px
+}
+
+iframe {
+    margin-top: 20px;
+}
+
 footer {
     background-color: yellow;
+    height: 50px;
 }
 
 footer p {
     color: #000;
     text-align: center;
+    margin-top: 25px;
 }
-@media only screen and(min-width: 600px){
-    /*for tablets*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
+
+.whats img {
+    object-fit: cover;
+    object-position: center;
+    height: 40px;
 }
-@media only screen and(min-width: 760px){
-    /*for tablets*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
+
+.freepik {
+    opacity: 0;
+    font-size: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.whats {
+    background-attachment: fixed;
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 0%;
+    text-align: right;
 }
